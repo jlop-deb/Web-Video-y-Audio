@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manejo de Video y Audio HTML5</title>
+    <title>Etiquetas Video, Audio e Iframes</title>
 </head>
 <body>
-    <h1>Manejo de video en HTML5</h1>
-    <video width="600" height="400" controls="" poster="recursos/portada.jpg" autoplay="" loop="">
+    <h1>Etiqueta Video</h1>
+    <video width="600" height="400" poster="images/poster.webp" controls>
         <source src="video/Publicar20s.mp4" type="video/mp4"/>
         <source src="video/Publicar20s_ogv.ogv" type="video/ogv"/>
         <source src="video/Publicar20s_webm.webm" type="video/webm"/>
+        ¡Error! Tu navegador no acepta este formato.
     </video>
-    <h2>Manejo de Audio en HTML5</h2>
+    <h2>Etiqueta Audio</h2>
+    <audio controls>
+        <source src="audio/audio.m4a" type="audio/m4a">
+        <source src="audio/audio.mp3" type="audio/mp3">
+        <source src="audio/audio.ogg" type="audio/ogg">
+        ¡Error! Tu navegador no acepta este formato.    
+    </audio>
     
 </body>
 </html>
